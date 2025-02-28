@@ -1,0 +1,15 @@
+[project]
+name = "ml-from-scratch"
+version = "0.1.0"
+description = "ML algorithms implemented from scratch in Python using numpy"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.3",
+    "scikit-learn>=1.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
